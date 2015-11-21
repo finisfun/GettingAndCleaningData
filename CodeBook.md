@@ -14,8 +14,6 @@ The variables in this tidy data set are a subset of the variables
 2. **Activity** - A factor that identifies the activity being performed
 	> Values: Walking, WalkingUpStairs, WalkingDownStairs, Sitting, Standing, Lying
 
-	***The feature variables below (#3 - #68) are each an average of the values collected for the test subject and activity specified in the data row. For each, the value is a numeric normalized and bounded within [-1, 1]***
-
 3. **MeanBodyAccelerationXAxis** - The mean of the body acceleration on the X axis. 
 
 4. **MeanBodyAccelerationYAxis** - The mean of the body acceleration on the Y axis.
