@@ -22,9 +22,9 @@ if(!file.exists("./data")){dir.create("./data")}
 # allocating the URL
 fileURL <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 # download file
-if(!file.exits("./data/getdata_projectfiles_UCI HAR Dataset.zip"))
+if(!file.exists("./data/getdata_projectfiles_UCI HAR Dataset.zip"))
 {
-    download.file(fileUrl, destfile="./data/getdata_projectfiles_UCI HAR Dataset.zip")
+    download.file(fileURL, destfile="./data/getdata_projectfiles_UCI HAR Dataset.zip")
     setwd("./data/")
     unzip("getdata_projectfiles_UCI HAR Dataset.zip")
     
